@@ -1,0 +1,26 @@
+body{
+    background-color: green;
+    color:yellow;
+}
+
+
+#eddigipizzak{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-collapse: collapse;
+}
+
+#pizzatabla{
+    width: 460px
+}
+
+
+th{
+    background-color:cyan;
+    border-bottom: blue solid 5px;
+    border: blue solid 1px;
+}
+
+td{
+    border: blue solid 4px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/kinezet.css"> 
+    <title>Pizza rendelés</title>
+</head>
+<body>
+    <h1>Pizza rendelés</h1>
+    <div id="pizzaformdoboz">
+    <form id="pizzaform">
+        <label>Add meg a neved: <input type="text" name="nev" ></label><br>
+        <label>Add meg a telefonszamod <input type="number" name="telefonszam" ></label><br>
+        <label>Add meg a címed <input type="text" name="cim" ></label><br><br>
+
+
+        <label>Kérem egy méretet válasszon</label><br>
+            <label>Alapból a méret 18cm azaz az Alap: <input type="checkbox" id="meret" > (Ha benyomja a gombot akkor közepes méret lesz)</label><br><br>
+
+        <label>Milyen lisztből készül el: <select name="liszt">
+            <option value="liszt">Sima liszt</option>
+            <option value="diétás liszt">Diétás liszt</option>
+        </select></label><br>
+
+
+        <label>Milyen fajta pizzát szeretne: <select name="fajta">
+            <option value="hawaii">Hawaii</option>
+            <option value="gombas">Gombás</option>
+        </select></label><br>
+
+
+        <button type="submit" class="btn btn-outline-danger">Új pizza felvétele</button>
+    </form>
+    <button id="eddigipizza" class="btn btn-primary">Az eddig felvett pizzák listája</button>  
+    </div>
+    <div id="pizzamut"></div>
+    <script src="pizza.js"></script>
+</body>
+</html>
